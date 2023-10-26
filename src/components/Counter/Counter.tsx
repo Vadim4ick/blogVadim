@@ -1,4 +1,4 @@
-import "./Counter.scss";
+import cls from "./Counter.module.scss";
 
 interface CounterProps {
   className?: string;
@@ -9,7 +9,8 @@ export const Counter: React.FC<CounterProps> = (props) => {
 
   return (
     <>
-      <div className="test">Testing</div>
+      <div className={cls.test}>Testing</div>
+      <div className={"text-2xl bg-yellow-300"}>Testing</div>
     </>
   );
 };
