@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-bg {
+  @apply dark:bg-bg-dark bg-bg;
+}
+.background-primary {
+  @apply dark:bg-primary-dark bg-primary;
+}
+.background-secondary {
+  @apply dark:bg-secondary-dark bg-secondary;
+}
+
+.color-bg {
+  @apply dark:text-bg-dark text-bg;
+}
+.color-primary {
+  @apply dark:text-primary-dark text-primary;
+}
+.color-secondary {
+  @apply dark:text-secondary-dark text-secondary;
+}
